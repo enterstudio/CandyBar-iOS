@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CandyBar'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Simple notification framework that displays an Icon, Title, and Subtitle.'
   s.description      = <<-DESC
 CandyBar is an alternative notification view. A CandyBar includes an easily customizable icon image, and title and subtitle text. There are 11 Candy Icons provided within the framework, but you could also use a custom own image.

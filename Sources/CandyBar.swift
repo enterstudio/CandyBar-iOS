@@ -105,11 +105,34 @@ public class CandyBar: UIView {
     ///     - title?: The title of the candybar. Defaults to `nil`.
     ///     - subtitle?: The subtitle of the candybar. Defaults to `nil`.
     ///     - icon?: An icon, from the `Candy` class, to be displayed on the left of a candybar.
+    ///     - backgroundColor?: The color of the candybar's background view. Defaults to `UIColor.blackColor()`.
+    ///     - didTapBlock?: An action to be called when the user taps on the candybar. Defaults to `nil`.
+    ///
+    public required init(title: String? = nil, subtitle: String? = nil, icon: CandyIcon, backgroundColor: UIColor, didDismissBlock: (() -> ())? = nil) {
+        self.didDismissBlock = didDismissBlock
+        self.image = icon.image
+        super.init(frame: CGRectZero)
+        resetShadows()
+        addGestureRecognizers()
+        initializeSubviews()
+        resetTintColor()
+        titleLabel.text = title
+        detailLabel.text = subtitle
+        backgroundView.backgroundColor = backgroundColor
+        backgroundView.alpha = 0.95
+    }
+    
+    /// A CandyBar with the provided `title`, `subtitle`, and an icon, ready to be presented with `show()`.
+    ///
+    /// - parameters:
+    ///     - title?: The title of the candybar. Defaults to `nil`.
+    ///     - subtitle?: The subtitle of the candybar. Defaults to `nil`.
+    ///     - icon?: An icon, from the `Candy` class, to be displayed on the left of a candybar.
     ///     - position: Whether the candybar should be displayed on the top or bottom. Defaults to `.Top`.
     ///     - backgroundColor?: The color of the candybar's background view. Defaults to `UIColor.blackColor()`.
     ///     - didTapBlock?: An action to be called when the user taps on the candybar. Defaults to `nil`.
     ///
-    public required init(title: String? = nil, subtitle: String? = nil, icon: CandyIcon, position: CandyBarPosition = .Top, backgroundColor: UIColor = UIColor.blackColor(), didDismissBlock: (() -> ())? = nil) {
+    public required init(title: String? = nil, subtitle: String? = nil, icon: CandyIcon, position: CandyBarPosition, backgroundColor: UIColor, didDismissBlock: (() -> ())? = nil) {
         self.didDismissBlock = didDismissBlock
         self.image = icon.image
         super.init(frame: CGRectZero)
@@ -130,11 +153,55 @@ public class CandyBar: UIView {
     ///     - title?: The title of the candybar. Defaults to `nil`.
     ///     - subtitle?: The subtitle of the candybar. Defaults to `nil`.
     ///     - image?: The image on the left of the candybar. Defaults to `nil`.
+    ///     - didTapBlock?: An action to be called when the user taps on the candybar. Defaults to `nil`.
+    ///
+    public required init(title: String? = nil, subtitle: String? = nil, image: UIImage? = nil, didDismissBlock: (() -> ())? = nil) {
+        self.didDismissBlock = didDismissBlock
+        self.image = image
+        super.init(frame: CGRectZero)
+        resetShadows()
+        addGestureRecognizers()
+        initializeSubviews()
+        resetTintColor()
+        titleLabel.text = title
+        detailLabel.text = subtitle
+        backgroundView.alpha = 0.95
+    }
+    
+    /// A CandyBar with the provided `title`, `subtitle`, and an optional `image`, ready to be presented with `show()`.
+    ///
+    /// - parameters:
+    ///     - title?: The title of the candybar. Defaults to `nil`.
+    ///     - subtitle?: The subtitle of the candybar. Defaults to `nil`.
+    ///     - image?: The image on the left of the candybar. Defaults to `nil`.
+    ///     - backgroundColor?: The color of the candybar's background view. Defaults to `UIColor.blackColor()`.
+    ///     - didTapBlock?: An action to be called when the user taps on the candybar. Defaults to `nil`.
+    ///
+    public required init(title: String? = nil, subtitle: String? = nil, image: UIImage? = nil, backgroundColor: UIColor, didDismissBlock: (() -> ())? = nil) {
+        self.didDismissBlock = didDismissBlock
+        self.image = image
+        super.init(frame: CGRectZero)
+        resetShadows()
+        addGestureRecognizers()
+        initializeSubviews()
+        resetTintColor()
+        titleLabel.text = title
+        detailLabel.text = subtitle
+        backgroundView.backgroundColor = backgroundColor
+        backgroundView.alpha = 0.95
+    }
+    
+    /// A CandyBar with the provided `title`, `subtitle`, and an optional `image`, ready to be presented with `show()`.
+    ///
+    /// - parameters:
+    ///     - title?: The title of the candybar. Defaults to `nil`.
+    ///     - subtitle?: The subtitle of the candybar. Defaults to `nil`.
+    ///     - image?: The image on the left of the candybar. Defaults to `nil`.
     ///     - position: Whether the candybar should be displayed on the top or bottom. Defaults to `.Top`.
     ///     - backgroundColor?: The color of the candybar's background view. Defaults to `UIColor.blackColor()`.
     ///     - didTapBlock?: An action to be called when the user taps on the candybar. Defaults to `nil`.
     ///
-    public required init(title: String? = nil, subtitle: String? = nil, image: UIImage? = nil, position: CandyBarPosition = .Top, backgroundColor: UIColor = UIColor.blackColor(), didDismissBlock: (() -> ())? = nil) {
+    public required init(title: String? = nil, subtitle: String? = nil, image: UIImage? = nil, position: CandyBarPosition, backgroundColor: UIColor, didDismissBlock: (() -> ())? = nil) {
         self.didDismissBlock = didDismissBlock
         self.image = image
         super.init(frame: CGRectZero)
