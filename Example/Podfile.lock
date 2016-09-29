@@ -1,5 +1,5 @@
 PODS:
-  - CandyBar (1.0.0)
+  - CandyBar (1.0.1)
 
 DEPENDENCIES:
   - CandyBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CandyBar: eca36e2568dd5d67ff5c665643f2db480ef5cc99
+  CandyBar: a08660469c1c25c6d386ee54002bee6184945c64
 
 PODFILE CHECKSUM: e4b78f1662252554d3aeaa4904c2639b93d6c1d7
 

@@ -6,6 +6,43 @@
 import Foundation
 import UIKit
 
+@objc
+public enum CandyIcon : Int{
+    case None = 0, Certificate, Crown, Crown2, MedalStar, RibbonStar, Stars, Stopwatch, ThumbsUp, TrophyHand, TrophyStar, WreathStar
+    
+    /// The filename for the icon image from the CandyBar framework
+    ///
+    internal var filename: String{
+        switch self{
+        case .Certificate: return "certificate"
+        case .Crown: return "crown"
+        case .Crown2: return "crown2"
+        case .MedalStar: return "medalStar"
+        case .RibbonStar: return "ribbonStar"
+        case .Stars: return "stars"
+        case .Stopwatch: return "stopwatchOne"
+        case .ThumbsUp: return "thumbsUp"
+        case .TrophyHand: return "trophyHand"
+        case .TrophyStar: return "trophyStar"
+        case .WreathStar: return "wreathStar"
+        default: return ""
+        }
+    }
+    
+    /// The icon image to be displayed on the left of a CandyBar
+    ///
+    internal var image: UIImage?{
+        
+        if let bundleURL = NSBundle(forClass: CandyBar.classForCoder()).URLForResource("CandyIcons", withExtension: "bundle"),
+            let bundle = NSBundle.init(URL: bundleURL) {
+            return UIImage(named: filename, inBundle: bundle, compatibleWithTraitCollection: nil)
+        } else {
+            return nil
+        }
+        
+    }
+}
+
 internal enum CandyBarState {
     case Showing, Hidden, Gone
 }
@@ -122,7 +159,7 @@ public class CandyBar: UIView {
     ///     - duration?: How long to show the candybar. If `nil`, then the candybar will be dismissed when the user taps it or until `.dismiss()` is called. 
     ///                 Defaults to `nil`.
     ///
-    public func show(duration: NSTimeInterval? = nil) {
+    public func show(duration: NSTimeInterval = 0) {
         CandyBar.topWindow()!.addSubview(self)
         forceUpdates()
         let (damping, velocity) = self.springiness.springValues
@@ -132,7 +169,7 @@ public class CandyBar: UIView {
         UIView.animateWithDuration(animationDuration, delay: 0.0, usingSpringWithDamping: damping, initialSpringVelocity: velocity, options: .AllowUserInteraction, animations: {
             self.candybarState = .Showing
             }, completion: { finished in
-                guard let duration = duration else { return }
+                if (duration == 0) { return }
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(duration * NSTimeInterval(NSEC_PER_SEC))), dispatch_get_main_queue()) {
                     self.dismiss()
                 }
