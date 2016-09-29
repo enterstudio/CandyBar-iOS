@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CandyBar-CandyIcons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CandyBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CandyBar_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CandyBar_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>42846F2683B89EAA1ECEAF881FD123F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>507B9832DB81C37C00FD25C6DCB44E61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCB7E7C23B4ACA63C7F913BE756AEE58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F129946BD4471C44AB58D02DB551553A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

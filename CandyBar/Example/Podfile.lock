@@ -1,0 +1,16 @@
+PODS:
+  - CandyBar (0.1.0)
+
+DEPENDENCIES:
+  - CandyBar (from `../`)
+
+EXTERNAL SOURCES:
+  CandyBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CandyBar: d387d87b07c973c0c85e801cdd20975f9f4c48e2
+
+PODFILE CHECKSUM: e4b78f1662252554d3aeaa4904c2639b93d6c1d7
+
+COCOAPODS: 1.1.0.rc.2

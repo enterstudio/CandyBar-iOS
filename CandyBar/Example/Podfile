@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CandyBar_Example' do
+  pod 'CandyBar', :path => '../'
+
+  target 'CandyBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
