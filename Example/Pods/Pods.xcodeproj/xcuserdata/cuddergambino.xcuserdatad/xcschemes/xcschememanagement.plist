@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CandyBar.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-CandyBar_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>42846F2683B89EAA1ECEAF881FD123F9</key>
+		<key>17940F64E798C3670565D398F73DF07F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>507B9832DB81C37C00FD25C6DCB44E61</key>
+		<key>7ED56BB7C8CB6CF0CA4BA65ECC23F72F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BCB7E7C23B4ACA63C7F913BE756AEE58</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F129946BD4471C44AB58D02DB551553A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

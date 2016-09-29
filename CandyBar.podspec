@@ -22,10 +22,10 @@ CandyBar is an alternative notification view. A CandyBar includes an easily cust
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CandyBar/Sources/**/*'
+  s.source_files = 'Sources/**/*'
   
   s.resource_bundles = {
-    'CandyIcons' => ['CandyBar/Resources/CandyIcons.xcassets']
+    'CandyIcons' => ['Resources/CandyIcons.xcassets']
   }
 
 end
