@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '507B9832DB81C37C00FD25C6DCB44E61'
-               BlueprintName = 'CandyBar-CandyIcons'
+               BlueprintIdentifier = 'F129946BD4471C44AB58D02DB551553A'
+               BlueprintName = 'CandyBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'CandyIcons.bundle'>
+               BuildableName = 'CandyBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

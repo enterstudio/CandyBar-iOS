@@ -19,10 +19,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CandyBar/Sources/**/*",
+  "source_files": "Sources/**/*",
   "resource_bundles": {
     "CandyIcons": [
-      "CandyBar/Resources/CandyIcons.xcassets"
+      "Resources/CandyIcons.xcassets"
     ]
   }
 }
