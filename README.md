@@ -5,22 +5,29 @@ Simple notification framework that displays an Icon, Title, and Subtitle.
 CandyBar is an alternative notification view. A CandyBar includes an easily customizable icon and text. There are [11 Candy Icons](CandyBar/CandyBar/Resources/CandyIcons.xcassets) provided within the framework, but you could also use your own image.
  
 ### Looking for an iOS Example App?
-There is an [example app](CandyBar/Example/CandyBar.xcworkspace) included within this repo. 
+There is an [example app](Example/CandyBar.xcworkspace) included within this repo. To run the example project, clone the repo, and run `pod install` from the Example directory first.
  
  <center><img src="readme/CandyBar on Top.png" width="320">
  <img src="readme/CandyBar on Bottom.png" width="320"></center>
  
 ## Set up CandyBar
+### CocoaPods
  
-  1. In your Podfile, include the CandyBar like below
-     
+  1. Install [CocoaPods](http://cocoapods.org) by running the following command in terminal:
+
+        gem install cocoapods
+
+  2. Create a `Podfile` in your Xcode project directory like below:
+
         use_frameworks!
         
-        target 'SomeonesApp' do
+        target '<YourProjectTarget>' do
             pod 'CandyBar'
         end
         
-  2. Start using CandyBars! Below are examples of how to use functions provided by the framework.
+    Using terminal, `cd` to your project directory and run `pod install` to build your dependencies.
+
+  3. Start using CandyBars! Below are examples of how to use functions provided by the framework.
 
 
 ##### Creating a CandyBar

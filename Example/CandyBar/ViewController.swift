@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     func showCandyBarOnTop(){
         topCandy?.dismiss()
-        topCandy = CandyBar(title: "You can even use emojis 💯",
+        topCandy = CandyBar(title: "That was awesome! 💯",
                             subtitle: "Tap to dismiss",
                             icon: CandyIcon.Stars,
                             backgroundColor: UIColor.purpleColor()
