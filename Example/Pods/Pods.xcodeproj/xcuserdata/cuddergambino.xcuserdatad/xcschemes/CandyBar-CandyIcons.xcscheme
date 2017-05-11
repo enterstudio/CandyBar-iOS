@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '15410B7905021E56985B6AD2970884F8'
+               BlueprintIdentifier = 'B6DF1DE6F051233498E4EABB8A902DB4'
                BlueprintName = 'CandyBar-CandyIcons'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CandyIcons.bundle'>

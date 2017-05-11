@@ -1,0 +1,10 @@
+framework module CandyBar {
+  umbrella header "CandyBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CandyBar.__Swift {
+    exclude header "CandyBar-Swift.h"
+}

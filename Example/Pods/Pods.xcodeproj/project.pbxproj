@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08EE4671F28762E4F1A3895467C5E6AB /* Pods-CandyBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1EAAE69B093BD5E14062924A7C38E6 /* Pods-CandyBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B18D081B052E178AF981EFCA7820399 /* CandyBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */; };
-		253B665626ADD59BEFA4F4510991CDDA /* CandyBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538D76740521FE3F9E4F5A6E8197304A /* CandyBar-dummy.m */; };
-		280DE8B366B536136933BA4C8BDDF166 /* CandyIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */; };
-		389D6B451BD3A10B691E73A01A41787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		43D9B10A3D6D26BD6EE4BBE8EABB6777 /* Pods-CandyBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3BF94CB1038E6C3AFE0162463C007E /* Pods-CandyBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59CEAF8C3134DECC422D4E9D087ADAF8 /* Pods-CandyBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E17203A07350E7B413DDC754DA92 /* Pods-CandyBar_Tests-dummy.m */; };
-		6921FC22E1F114B5AD111A7BD86A663D /* CandyBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E019603F413EB4450CA968EAD34D9103 /* CandyBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900ABD81886C7B44D0F05802EE22EBE7 /* CandyIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */; };
-		A008D03EB1794D13D66E0D9BD0BE5B8C /* Pods-CandyBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EB14701CEE29FFD6B103E4E0290814 /* Pods-CandyBar_Example-dummy.m */; };
-		E43A2930FF1B5B6445CFD4EDD63E7430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F413A35A731459EA41532D74D54382A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		194542734FAA6FB916A2346A62412E6A /* Pods-CandyBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EB14701CEE29FFD6B103E4E0290814 /* Pods-CandyBar_Example-dummy.m */; };
+		374A065957730D72159CCE88F6F0E494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		601912FDC14D734812DFD9BEB68178F1 /* CandyBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */; };
+		682076717C6EEEE55D5377164836C49B /* Pods-CandyBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB4E17203A07350E7B413DDC754DA92 /* Pods-CandyBar_Tests-dummy.m */; };
+		8A36A6BA68061AB9AF25F392D07E9428 /* CandyIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */; };
+		95CD2B90C38A80C734A3AACD2B228CBB /* Pods-CandyBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1EAAE69B093BD5E14062924A7C38E6 /* Pods-CandyBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23DF2AB49488E271ACFCD258566BBE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B64A1BAC304CAF04D48C09DFAA331AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D63018655C7B9DD5851A484DE1B3E02D /* CandyIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */; };
+		E2847AAA6E8D1E58FC4E8C5DAA932C70 /* CandyBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E019603F413EB4450CA968EAD34D9103 /* CandyBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33E6B38B4EABF5A3C2DE62C99B145F6 /* Pods-CandyBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3BF94CB1038E6C3AFE0162463C007E /* Pods-CandyBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E946BB9E19BF414EE6AFE07EF8339C4B /* CandyBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538D76740521FE3F9E4F5A6E8197304A /* CandyBar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C52129B031991AB444EF7D9049A1BAF8 /* PBXContainerItemProxy */ = {
+		55FF3308AC45EF50FAFF649A4C5D5190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45E21D19CB7F9A10ECC56DF8863A3C23;
+			remoteGlobalIDString = 7BEDE3540CF58AD9F638647C76F06211;
 			remoteInfo = CandyBar;
 		};
-		FC25587E665009CAF662B77893C2E529 /* PBXContainerItemProxy */ = {
+		DE7C2455856A8D616E7A8E9FC6C7AE28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15410B7905021E56985B6AD2970884F8;
+			remoteGlobalIDString = B6DF1DE6F051233498E4EABB8A902DB4;
 			remoteInfo = "CandyBar-CandyIcons";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18C0DC8AE1225C237867CC215EE2B6DB /* Pods-CandyBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2BAD694B2773B61A6AC17B413FAC914B /* CandyBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CandyBar.modulemap; sourceTree = "<group>"; };
-		2DC17C2092163CBC7C49A4D75380E657 /* Pods-CandyBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CandyBar_Tests.modulemap"; sourceTree = "<group>"; };
-		33B01B65F5D0F507BF7371ABACD01A3D /* Pods_CandyBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA8F7F134734D3539341A937DABED5B /* Pods-CandyBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CandyBar_Example.modulemap"; sourceTree = "<group>"; };
+		2BAD694B2773B61A6AC17B413FAC914B /* CandyBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CandyBar.modulemap; sourceTree = "<group>"; };
+		2DC17C2092163CBC7C49A4D75380E657 /* Pods-CandyBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CandyBar_Tests.modulemap"; sourceTree = "<group>"; };
+		33B01B65F5D0F507BF7371ABACD01A3D /* Pods_CandyBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CandyBar_Tests.framework; path = "Pods-CandyBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA8F7F134734D3539341A937DABED5B /* Pods-CandyBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CandyBar_Example.modulemap"; sourceTree = "<group>"; };
 		3DCF82DE320B23A91E9F6BC50A02EDDB /* Pods-CandyBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Tests-resources.sh"; sourceTree = "<group>"; };
 		3E76149F96312DB1E4F85A157CDC1C84 /* Pods-CandyBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		41948BB1CE26875808311D1A31ABB283 /* Pods-CandyBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CandyBar.xcconfig; sourceTree = "<group>"; };
 		538D76740521FE3F9E4F5A6E8197304A /* CandyBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CandyBar-dummy.m"; sourceTree = "<group>"; };
-		56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CandyBar_Example.framework; path = "Pods-CandyBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597AAD12C2F53E5A4134A827F354938B /* Pods-CandyBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61AFF8B3F58D9A6027B9EBE31E939EAC /* Pods-CandyBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		780D21BA04282AA4576F9D0C02E39C61 /* Pods-CandyBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B3BF94CB1038E6C3AFE0162463C007E /* Pods-CandyBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CandyBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		891BB75D1951E4A61E53DF00E1E7EC57 /* Pods-CandyBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CandyBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D6492D7407391BD5D68BD73FEC10459 /* Pods-CandyBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CandyBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93F5F3C022CDF4957A7020ACB008ACF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CandyBar.swift; sourceTree = "<group>"; };
 		AF0D51E99A7AC8D6C8E0FE9C5E4F0AAC /* Pods-CandyBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CandyBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B23B80BA0745CC21CD34548F5363EEF8 /* Pods-CandyBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Example-resources.sh"; sourceTree = "<group>"; };
 		B2772DE6D6521E7A15FC43E94D9B6CB0 /* CandyBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CandyBar-prefix.pch"; sourceTree = "<group>"; };
 		B520AF7B4850300643A848F6BCAB75FC /* Pods-CandyBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CandyBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CandyBar.framework; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1EAAE69B093BD5E14062924A7C38E6 /* Pods-CandyBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CandyBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = CandyIcons.xcassets; sourceTree = "<group>"; };
-		CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CandyIcons.bundle; path = CandyIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCACF4C279AFA039A402759FD8A0AD51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA9F894AE9319688F19ED92893369E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E019603F413EB4450CA968EAD34D9103 /* CandyBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CandyBar-umbrella.h"; sourceTree = "<group>"; };
@@ -77,34 +77,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61C74D59E9DEF2C8117E8A1B730C3261 /* Frameworks */ = {
+		27DA6651E5978603CF730C9F6DBA33D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A1BAC304CAF04D48C09DFAA331AB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2B2A258E72BA7912B2C2F9175784F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23DF2AB49488E271ACFCD258566BBE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F673C69C3967599B842558579EAAB75A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6274848CCEC62476517D014859E7897B /* Frameworks */ = {
+		FFD1C55E1C8B6DD00DF99A6AA305AD95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F413A35A731459EA41532D74D54382A1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D4EBD88BA5AB0CC5B58EC75FCF63230 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				389D6B451BD3A10B691E73A01A41787C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84F8484B9EFEB544F18D7D9F22610978 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E43A2930FF1B5B6445CFD4EDD63E7430 /* Foundation.framework in Frameworks */,
+				374A065957730D72159CCE88F6F0E494 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,14 +155,6 @@
 			path = "Example/Pods/Target Support Files/CandyBar";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		3F7351F38441A526BF35FA5292A8AD0D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +168,7 @@
 			children = (
 				C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */,
 			);
+			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -186,6 +179,14 @@
 				A510171B2007912B9424C17F557DE17F /* Pods-CandyBar_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -228,7 +229,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -249,46 +250,84 @@
 			children = (
 				AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */,
 			);
+			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59BD1347D6380BD34720CC76E1FFC8DD /* Headers */ = {
+		A3FC9502A7153ADD27096CE94A400502 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6921FC22E1F114B5AD111A7BD86A663D /* CandyBar-umbrella.h in Headers */,
+				E33E6B38B4EABF5A3C2DE62C99B145F6 /* Pods-CandyBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B801FAEFF4733854F0A8BCBF44F3BD5 /* Headers */ = {
+		B28E5A76DD418CFB5FF83FE7C80E5ACE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08EE4671F28762E4F1A3895467C5E6AB /* Pods-CandyBar_Example-umbrella.h in Headers */,
+				E2847AAA6E8D1E58FC4E8C5DAA932C70 /* CandyBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAB3CBDCA5B7B7576D3A23A178645B35 /* Headers */ = {
+		F9C977B9C5559538C8A2C61A96DE053F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D9B10A3D6D26BD6EE4BBE8EABB6777 /* Pods-CandyBar_Tests-umbrella.h in Headers */,
+				95CD2B90C38A80C734A3AACD2B228CBB /* Pods-CandyBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15410B7905021E56985B6AD2970884F8 /* CandyBar-CandyIcons */ = {
+		7BEDE3540CF58AD9F638647C76F06211 /* CandyBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 818C4A6C3210AAF8168CBB314461A4C5 /* Build configuration list for PBXNativeTarget "CandyBar-CandyIcons" */;
+			buildConfigurationList = 623AB17C8B302C0FFD5C1DE43F9329A5 /* Build configuration list for PBXNativeTarget "CandyBar" */;
 			buildPhases = (
-				8DC0FFD310A331F39D4C5C50BDF44785 /* Sources */,
-				61C74D59E9DEF2C8117E8A1B730C3261 /* Frameworks */,
-				7F8781238791127F2A22E5CECBDE5C01 /* Resources */,
+				B2726BA9F6A96B394D3FBEDB35EC2D6F /* Sources */,
+				FFD1C55E1C8B6DD00DF99A6AA305AD95 /* Frameworks */,
+				DBF86D6AF65FF424E748217607FFE073 /* Resources */,
+				B28E5A76DD418CFB5FF83FE7C80E5ACE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285ABDE7B2CE9E5A53A6169405B81923 /* PBXTargetDependency */,
+			);
+			name = CandyBar;
+			productName = CandyBar;
+			productReference = BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A118921AA9AE5BC37B02410E84A685CC /* Pods-CandyBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61F1ABEB34FDA54F33FB85B6803C23B /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Example" */;
+			buildPhases = (
+				C0B88C455174276EE9C1A6FC66FFE6D0 /* Sources */,
+				9B2B2A258E72BA7912B2C2F9175784F0 /* Frameworks */,
+				F9C977B9C5559538C8A2C61A96DE053F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113831B2C2EA68B5EA87F7FAAF5C3AF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CandyBar_Example";
+			productName = "Pods-CandyBar_Example";
+			productReference = 56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6DF1DE6F051233498E4EABB8A902DB4 /* CandyBar-CandyIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1F1B74BE78BCCE9FFD16D0BAB8EFB0 /* Build configuration list for PBXNativeTarget "CandyBar-CandyIcons" */;
+			buildPhases = (
+				8F7C9C11FE04ADDEDC5CF209F9606712 /* Sources */,
+				F673C69C3967599B842558579EAAB75A /* Frameworks */,
+				4DEEFB3DD43E95F772D8525FC5B1FA3D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -299,50 +338,13 @@
 			productReference = CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		42846F2683B89EAA1ECEAF881FD123F9 /* Pods-CandyBar_Example */ = {
+		D2C1717DE9F836624BC6D82BF65A2D92 /* Pods-CandyBar_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 021545CAD52D68A177766D2D234138E8 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Example" */;
+			buildConfigurationList = ABAD4AB0C7ED3431DB91129574324588 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Tests" */;
 			buildPhases = (
-				18A1D75AA3A4FFACCD4634C8F25E67C3 /* Sources */,
-				84F8484B9EFEB544F18D7D9F22610978 /* Frameworks */,
-				7B801FAEFF4733854F0A8BCBF44F3BD5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A616F5A898E9FE8E68EB96AE5D7EB1E5 /* PBXTargetDependency */,
-			);
-			name = "Pods-CandyBar_Example";
-			productName = "Pods-CandyBar_Example";
-			productReference = 56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		45E21D19CB7F9A10ECC56DF8863A3C23 /* CandyBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9200EC88C549A5B1AF06CBB43B700081 /* Build configuration list for PBXNativeTarget "CandyBar" */;
-			buildPhases = (
-				4E45DF66D09E87F7B72DD8A115147071 /* Sources */,
-				6274848CCEC62476517D014859E7897B /* Frameworks */,
-				1615384C63FC9C61048F5D8C3BAC54D6 /* Resources */,
-				59BD1347D6380BD34720CC76E1FFC8DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E6AA1BCF47C5B7739401A2A9E26B66E /* PBXTargetDependency */,
-			);
-			name = CandyBar;
-			productName = CandyBar;
-			productReference = BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BCB7E7C23B4ACA63C7F913BE756AEE58 /* Pods-CandyBar_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF9404F7E75827A300C03277FBBA757 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Tests" */;
-			buildPhases = (
-				6159D86D682D6AF221EC4C6399DC1D7A /* Sources */,
-				6D4EBD88BA5AB0CC5B58EC75FCF63230 /* Frameworks */,
-				DAB3CBDCA5B7B7576D3A23A178645B35 /* Headers */,
+				6539F2E47F2B89F9F1F7B52CE4EE2262 /* Sources */,
+				27DA6651E5978603CF730C9F6DBA33D5 /* Frameworks */,
+				A3FC9502A7153ADD27096CE94A400502 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -374,85 +376,102 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45E21D19CB7F9A10ECC56DF8863A3C23 /* CandyBar */,
-				15410B7905021E56985B6AD2970884F8 /* CandyBar-CandyIcons */,
-				42846F2683B89EAA1ECEAF881FD123F9 /* Pods-CandyBar_Example */,
-				BCB7E7C23B4ACA63C7F913BE756AEE58 /* Pods-CandyBar_Tests */,
+				7BEDE3540CF58AD9F638647C76F06211 /* CandyBar */,
+				B6DF1DE6F051233498E4EABB8A902DB4 /* CandyBar-CandyIcons */,
+				A118921AA9AE5BC37B02410E84A685CC /* Pods-CandyBar_Example */,
+				D2C1717DE9F836624BC6D82BF65A2D92 /* Pods-CandyBar_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1615384C63FC9C61048F5D8C3BAC54D6 /* Resources */ = {
+		4DEEFB3DD43E95F772D8525FC5B1FA3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900ABD81886C7B44D0F05802EE22EBE7 /* CandyIcons.bundle in Resources */,
+				D63018655C7B9DD5851A484DE1B3E02D /* CandyIcons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F8781238791127F2A22E5CECBDE5C01 /* Resources */ = {
+		DBF86D6AF65FF424E748217607FFE073 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280DE8B366B536136933BA4C8BDDF166 /* CandyIcons.xcassets in Resources */,
+				8A36A6BA68061AB9AF25F392D07E9428 /* CandyIcons.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18A1D75AA3A4FFACCD4634C8F25E67C3 /* Sources */ = {
+		6539F2E47F2B89F9F1F7B52CE4EE2262 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A008D03EB1794D13D66E0D9BD0BE5B8C /* Pods-CandyBar_Example-dummy.m in Sources */,
+				682076717C6EEEE55D5377164836C49B /* Pods-CandyBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E45DF66D09E87F7B72DD8A115147071 /* Sources */ = {
+		8F7C9C11FE04ADDEDC5CF209F9606712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				253B665626ADD59BEFA4F4510991CDDA /* CandyBar-dummy.m in Sources */,
-				1B18D081B052E178AF981EFCA7820399 /* CandyBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6159D86D682D6AF221EC4C6399DC1D7A /* Sources */ = {
+		B2726BA9F6A96B394D3FBEDB35EC2D6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CEAF8C3134DECC422D4E9D087ADAF8 /* Pods-CandyBar_Tests-dummy.m in Sources */,
+				E946BB9E19BF414EE6AFE07EF8339C4B /* CandyBar-dummy.m in Sources */,
+				601912FDC14D734812DFD9BEB68178F1 /* CandyBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DC0FFD310A331F39D4C5C50BDF44785 /* Sources */ = {
+		C0B88C455174276EE9C1A6FC66FFE6D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194542734FAA6FB916A2346A62412E6A /* Pods-CandyBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E6AA1BCF47C5B7739401A2A9E26B66E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CandyBar-CandyIcons";
-			target = 15410B7905021E56985B6AD2970884F8 /* CandyBar-CandyIcons */;
-			targetProxy = FC25587E665009CAF662B77893C2E529 /* PBXContainerItemProxy */;
-		};
-		A616F5A898E9FE8E68EB96AE5D7EB1E5 /* PBXTargetDependency */ = {
+		113831B2C2EA68B5EA87F7FAAF5C3AF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CandyBar;
-			target = 45E21D19CB7F9A10ECC56DF8863A3C23 /* CandyBar */;
-			targetProxy = C52129B031991AB444EF7D9049A1BAF8 /* PBXContainerItemProxy */;
+			target = 7BEDE3540CF58AD9F638647C76F06211 /* CandyBar */;
+			targetProxy = 55FF3308AC45EF50FAFF649A4C5D5190 /* PBXContainerItemProxy */;
+		};
+		285ABDE7B2CE9E5A53A6169405B81923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CandyBar-CandyIcons";
+			target = B6DF1DE6F051233498E4EABB8A902DB4 /* CandyBar-CandyIcons */;
+			targetProxy = DE7C2455856A8D616E7A8E9FC6C7AE28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C88B4E89FCDF4F0FB01B9826A4A81E7 /* Release */ = {
+		246954F66DEA596F40AF44A05D0B06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CandyBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CandyBar/ResourceBundle-CandyIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CandyIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2556424C4C4EED7C0ABAEA41610D5116 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18C0DC8AE1225C237867CC215EE2B6DB /* Pods-CandyBar_Tests.release.xcconfig */;
 			buildSettings = {
@@ -487,7 +506,7 @@
 			};
 			name = Release;
 		};
-		505A0044624B5AFE2BED5C51A6D8D631 /* Release */ = {
+		6701018DDAF07C4868445DDF3FEE481C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 780D21BA04282AA4576F9D0C02E39C61 /* Pods-CandyBar_Example.release.xcconfig */;
 			buildSettings = {
@@ -521,42 +540,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		763D039B51DC733F709C1E3DF27064B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61AFF8B3F58D9A6027B9EBE31E939EAC /* Pods-CandyBar_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CandyBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CandyBar_Example/Pods-CandyBar_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CandyBar_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -598,7 +581,7 @@
 			};
 			name = Release;
 		};
-		93513166D4657CFD8197A96206375858 /* Debug */ = {
+		9037B417C3DBD3ECF2F06DD7FA81F036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
 			buildSettings = {
@@ -659,7 +642,7 @@
 			};
 			name = Debug;
 		};
-		A5FC4B068874664A4EF0C9EAF5709EB8 /* Release */ = {
+		9EE04902349DEFF68874421F8BD18607 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
 			buildSettings = {
@@ -684,33 +667,16 @@
 				PRODUCT_NAME = CandyBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		AEA1C2229EC380CF786416FF43C2DD8B /* Release */ = {
+		E950D81BF46984378AAD2B0DC2FEBD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CandyBar";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/CandyBar/ResourceBundle-CandyIcons-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = CandyIcons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		AEC0C5EF1EC2600BE88A8DA515B744FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
+			baseConfigurationReference = 61AFF8B3F58D9A6027B9EBE31E939EAC /* Pods-CandyBar_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -723,25 +689,28 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CandyBar/CandyBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CandyBar/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CandyBar_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CandyBar/CandyBar.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CandyBar_Example/Pods-CandyBar_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CandyBar;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CandyBar_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BFB7EB72901C1D63DC41DDC59573C147 /* Debug */ = {
+		EDF4A21EF4B02C3D303A3970825543A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 597AAD12C2F53E5A4134A827F354938B /* Pods-CandyBar_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -776,18 +745,42 @@
 			};
 			name = Debug;
 		};
+		FEB27EA2026E6F40FB10A1460F1E705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CandyBar/CandyBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CandyBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CandyBar/CandyBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CandyBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		021545CAD52D68A177766D2D234138E8 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				763D039B51DC733F709C1E3DF27064B0 /* Debug */,
-				505A0044624B5AFE2BED5C51A6D8D631 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -797,29 +790,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		818C4A6C3210AAF8168CBB314461A4C5 /* Build configuration list for PBXNativeTarget "CandyBar-CandyIcons" */ = {
+		623AB17C8B302C0FFD5C1DE43F9329A5 /* Build configuration list for PBXNativeTarget "CandyBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93513166D4657CFD8197A96206375858 /* Debug */,
-				AEA1C2229EC380CF786416FF43C2DD8B /* Release */,
+				FEB27EA2026E6F40FB10A1460F1E705F /* Debug */,
+				9EE04902349DEFF68874421F8BD18607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF9404F7E75827A300C03277FBBA757 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Tests" */ = {
+		A61F1ABEB34FDA54F33FB85B6803C23B /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB7EB72901C1D63DC41DDC59573C147 /* Debug */,
-				3C88B4E89FCDF4F0FB01B9826A4A81E7 /* Release */,
+				E950D81BF46984378AAD2B0DC2FEBD9E /* Debug */,
+				6701018DDAF07C4868445DDF3FEE481C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9200EC88C549A5B1AF06CBB43B700081 /* Build configuration list for PBXNativeTarget "CandyBar" */ = {
+		ABAD4AB0C7ED3431DB91129574324588 /* Build configuration list for PBXNativeTarget "Pods-CandyBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEC0C5EF1EC2600BE88A8DA515B744FB /* Debug */,
-				A5FC4B068874664A4EF0C9EAF5709EB8 /* Release */,
+				EDF4A21EF4B02C3D303A3970825543A2 /* Debug */,
+				2556424C4C4EED7C0ABAEA41610D5116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1F1B74BE78BCCE9FFD16D0BAB8EFB0 /* Build configuration list for PBXNativeTarget "CandyBar-CandyIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9037B417C3DBD3ECF2F06DD7FA81F036 /* Debug */,
+				246954F66DEA596F40AF44A05D0B06E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
