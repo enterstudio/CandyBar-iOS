@@ -40,33 +40,33 @@
 
 /* Begin PBXFileReference section */
 		18C0DC8AE1225C237867CC215EE2B6DB /* Pods-CandyBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2BAD694B2773B61A6AC17B413FAC914B /* CandyBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CandyBar.modulemap; sourceTree = "<group>"; };
-		2DC17C2092163CBC7C49A4D75380E657 /* Pods-CandyBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CandyBar_Tests.modulemap"; sourceTree = "<group>"; };
-		33B01B65F5D0F507BF7371ABACD01A3D /* Pods_CandyBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CandyBar_Tests.framework; path = "Pods-CandyBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA8F7F134734D3539341A937DABED5B /* Pods-CandyBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CandyBar_Example.modulemap"; sourceTree = "<group>"; };
+		2BAD694B2773B61A6AC17B413FAC914B /* CandyBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CandyBar.modulemap; sourceTree = "<group>"; };
+		2DC17C2092163CBC7C49A4D75380E657 /* Pods-CandyBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CandyBar_Tests.modulemap"; sourceTree = "<group>"; };
+		33B01B65F5D0F507BF7371ABACD01A3D /* Pods_CandyBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA8F7F134734D3539341A937DABED5B /* Pods-CandyBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CandyBar_Example.modulemap"; sourceTree = "<group>"; };
 		3DCF82DE320B23A91E9F6BC50A02EDDB /* Pods-CandyBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Tests-resources.sh"; sourceTree = "<group>"; };
 		3E76149F96312DB1E4F85A157CDC1C84 /* Pods-CandyBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		41948BB1CE26875808311D1A31ABB283 /* Pods-CandyBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4536038925D3E425C638FC08E3C597F9 /* CandyBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CandyBar.xcconfig; sourceTree = "<group>"; };
 		538D76740521FE3F9E4F5A6E8197304A /* CandyBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CandyBar-dummy.m"; sourceTree = "<group>"; };
-		56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CandyBar_Example.framework; path = "Pods-CandyBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C31A90F4535B13B5716F570DE01896 /* Pods_CandyBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandyBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597AAD12C2F53E5A4134A827F354938B /* Pods-CandyBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61AFF8B3F58D9A6027B9EBE31E939EAC /* Pods-CandyBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		780D21BA04282AA4576F9D0C02E39C61 /* Pods-CandyBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CandyBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B3BF94CB1038E6C3AFE0162463C007E /* Pods-CandyBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CandyBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		891BB75D1951E4A61E53DF00E1E7EC57 /* Pods-CandyBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CandyBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D6492D7407391BD5D68BD73FEC10459 /* Pods-CandyBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CandyBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93F5F3C022CDF4957A7020ACB008ACF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CandyBar.swift; sourceTree = "<group>"; };
 		AF0D51E99A7AC8D6C8E0FE9C5E4F0AAC /* Pods-CandyBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CandyBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B23B80BA0745CC21CD34548F5363EEF8 /* Pods-CandyBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CandyBar_Example-resources.sh"; sourceTree = "<group>"; };
 		B2772DE6D6521E7A15FC43E94D9B6CB0 /* CandyBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CandyBar-prefix.pch"; sourceTree = "<group>"; };
 		B520AF7B4850300643A848F6BCAB75FC /* Pods-CandyBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CandyBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CandyBar.framework; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0B9D997008F841CC2AF04A58E7F6C7 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1EAAE69B093BD5E14062924A7C38E6 /* Pods-CandyBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CandyBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = CandyIcons.xcassets; sourceTree = "<group>"; };
-		CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CandyIcons.bundle; path = CandyIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6CFB0EC0DBDC540DBD8EC5D98D7B62 /* CandyIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCACF4C279AFA039A402759FD8A0AD51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA9F894AE9319688F19ED92893369E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,7 +168,6 @@
 			children = (
 				C8C0DCDA1F24BF5DAAD529DA6AFE5885 /* CandyIcons.xcassets */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -250,7 +249,6 @@
 			children = (
 				AB71E4DCA0CF3455E2B715BBB7CE8678 /* CandyBar.swift */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -363,6 +361,20 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7BEDE3540CF58AD9F638647C76F06211 = {
+						LastSwiftMigration = 0820;
+					};
+					A118921AA9AE5BC37B02410E84A685CC = {
+						LastSwiftMigration = 0820;
+					};
+					B6DF1DE6F051233498E4EABB8A902DB4 = {
+						LastSwiftMigration = 0820;
+					};
+					D2C1717DE9F836624BC6D82BF65A2D92 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -466,6 +478,7 @@
 				PRODUCT_NAME = CandyIcons;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -500,6 +513,7 @@
 				PRODUCT_NAME = Pods_CandyBar_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -535,6 +549,7 @@
 				PRODUCT_NAME = Pods_CandyBar_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -593,6 +608,7 @@
 				PRODUCT_NAME = CandyIcons;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -704,6 +720,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -739,6 +756,7 @@
 				PRODUCT_NAME = Pods_CandyBar_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
